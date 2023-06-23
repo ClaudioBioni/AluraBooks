@@ -3,6 +3,7 @@
 @import url("../css/carrossel.css");
 @import url("../css/topicos.css");
 @import url("../css/contato.css");
+@import url("../css/rodape.css");
 
 :root {
     --cor-de-fundo: #EBECEE;
@@ -13,6 +14,8 @@
     --azul: #002F52;
     --fonte-secundaria: 'Josefin Sans'
     --preto: #000000;
+    --cinza: #474646
+    --cinza-claro: #858585
 
 }
 
@@ -21,15 +24,4 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
-}
-
-footer {
-    background: var(--branco);
-    font-size: 16px;
-    font-weight: 400;
-    padding: 1em;
-}
-
-hr {
-    margin: 0;
 }
